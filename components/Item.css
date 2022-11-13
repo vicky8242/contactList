@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-outer {
+  height: auto;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  padding-bottom: 30px;
+  height: auto;
+  width: 30vw;
+  background-color: rgb(164, 203, 235);
+  /* background-color: red; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.search-div {
+  margin-top: 20px;
+}
+.name-search {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.mobile-search {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.search-btn {
+  padding: 7px 16px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.First-Name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-around;
+  box-sizing: border-box;
+  height: 50px;
+  width: 25vw;
+  text-transform: capitalize;
+}
+.firstName {
+  border: 3px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+.form-error {
+  margin-top: 7px;
+  color: red;
+}
+.submit-btn {
+  margin: 20px 50px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: large;
+  color: rgb(39, 39, 239);
+}
+.submit-btn:hover {
+  background-color: rgb(143, 153, 223);
+}
+.label-flex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.del-edit-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.delete-btn {
+  /* margin-left: 20%; */
+  width: fit-content;
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  float: left;
+  color: rgb(58, 47, 134);
+  font-size: large;
+}
+.delete-btn:hover {
+  background-color: rgb(141, 142, 228);
+  /* color: rgb(206, 210, 206); */
+}
+
+.data-main { height: 65vh;
+  width: 60vw;
+  height: 60vh;
+  margin-top: 2rem;
+  border: 1px solid gray;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+.card-div{
+  width: 17vw;
+  height: 20vh;
+  border: 1px solid rgb(21, 21, 50);
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 8px;
+}
+.profile-info{
+  text-transform: capitalize;
+
+}
+.contact-heading{
+  margin-top: 2rem;
+}
+@media only screen and (max-width: 900px) {
+  .data-main-outer {
+    margin-left: 15%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .data-main-outer {
+    margin-left: 30%;
+  }
+}
